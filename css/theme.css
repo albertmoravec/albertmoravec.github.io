@@ -1,0 +1,38 @@
+/* Navy blue */
+.theme-base-00 .sidebar {
+    background-color: #2C3E50;
+}
+.theme-base-00 .content a,
+.theme-base-00 .related-posts li a:hover {
+    color: #2C3E50;
+}
+
+.theme-base-00 .label {
+    background-color: #2C3E50;
+  }
+  
+  .theme-base-00 .pagination > li > a,
+  .theme-base-00 .pagination > li > span {
+    color: #2C3E50;
+  }
+  
+  .theme-base-00 .pagination > .active > a,
+  .theme-base-00 .pagination > .active > span,
+  .theme-base-00 .pagination > .active > a:hover,
+  .theme-base-00 .pagination > .active > span:hover,
+  .theme-base-00 .pagination > .active > a:focus,
+  .theme-base-00 .pagination > .active > span:focus {
+    background-color: #2C3E50;
+    border-color: #2C3E50;
+  }
+  
+  .theme-base-00 .pagination > .disabled > span,
+  .theme-base-00 .pagination > .disabled > span:hover,
+  .theme-base-00 .pagination > .disabled > span:focus,
+  .theme-base-00 .pagination > .disabled > a,
+  .theme-base-00 .pagination > .disabled > a:hover,
+  .theme-base-00 .pagination > .disabled > a:focus {
+    color: #777;
+    background-color: #fff;
+    border-color: #ddd;
+  }
