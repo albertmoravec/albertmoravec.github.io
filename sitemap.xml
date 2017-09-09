@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://albru123.github.io/2017/09/10/cherry-mx-gotchas/</loc>
+    <lastmod>2017-09-10T01:34:15+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://albru123.github.io/2017/08/12/journey-of-zireael/</loc>
     <lastmod>2017-08-12T18:04:56+02:00</lastmod>
   </url>
@@ -14,7 +19,7 @@
   
   <url>
     <loc>https://albru123.github.io/</loc>
-    <lastmod>2017-08-12T18:04:56+02:00</lastmod>
+    <lastmod>2017-09-10T01:34:15+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -25,13 +30,13 @@
   
   <url>
     <loc>https://albru123.github.io/categories/mechs/</loc>
-    <lastmod>2017-08-12T18:04:56+02:00</lastmod>
+    <lastmod>2017-09-10T01:34:15+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://albru123.github.io/post/</loc>
-    <lastmod>2017-08-12T18:04:56+02:00</lastmod>
+    <lastmod>2017-09-10T01:34:15+02:00</lastmod>
     <priority>0</priority>
   </url>
   

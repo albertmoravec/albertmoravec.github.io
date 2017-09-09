@@ -6,10 +6,19 @@
     <description>Recent content on Albru&#39;s trash can</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 12 Aug 2017 18:04:56 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 10 Sep 2017 01:34:15 +0200</lastBuildDate>
     
 	<atom:link href="https://albru123.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Cherry MX gotchas</title>
+      <link>https://albru123.github.io/2017/09/10/cherry-mx-gotchas/</link>
+      <pubDate>Sun, 10 Sep 2017 01:34:15 +0200</pubDate>
+      
+      <guid>https://albru123.github.io/2017/09/10/cherry-mx-gotchas/</guid>
+      <description>This post is gonna be a little flashback for me, as I started working on this project before I created this blog, so if I miss anything you&amp;rsquo;d like to know, don&amp;rsquo;t hesitate to tell me in the comments. It should serve more as a build log where I can release assets I created to the public, but expect a full featured guide on how to create a library to come.</description>
+    </item>
     
     <item>
       <title>Journey of Zireael</title>

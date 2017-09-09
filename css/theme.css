@@ -2,18 +2,17 @@
 .theme-base-00 .sidebar {
     background-color: #2C3E50;
 }
-.theme-base-00 .content a,
+
+/*.theme-base-00 .content a,*/
+.post-title a,
+.theme-base-00 .pagination > li > a,
+.theme-base-00 .pagination > li > span
 .theme-base-00 .related-posts li a:hover {
     color: #2C3E50;
 }
 
 .theme-base-00 .label {
   background-color: #2C3E50;
-}
-
-.theme-base-00 .pagination > li > a,
-.theme-base-00 .pagination > li > span {
-  color: #2C3E50;
 }
 
 .theme-base-00 .pagination > .active > a,
