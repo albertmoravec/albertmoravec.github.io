@@ -82,18 +82,26 @@
 <div class="content container">
   <div class="post">
     <h1 class="post-title">Cherry MX gotchas</h1>
-    <span class="post-date">Sep 10, 2017 &middot; 6 minute read &middot; <a href="https://albru123.github.io/2017/09/10/cherry-mx-gotchas/#disqus_thread">Comments</a>
+    <span class="post-date">Sep 10, 2017 &middot; 7 minute read &middot; <a href="https://albru123.github.io/2017/09/10/cherry-mx-gotchas/#disqus_thread">Comments</a>
     
     <br/>
     <a class="label" href="https://albru123.github.io/categories/mechs">Mechs</a>
     </span>
-    <p>This post is gonna be a little flashback for me, as I started working on this project before I created this blog, so if I miss anything you&rsquo;d like to know, don&rsquo;t hesitate to tell me in the comments. It should serve more as a build log where I can release assets I created to the public, but expect a full featured guide on how to create a library to come.</p>
+    
+
+<p>This post is gonna be a little flashback for me, as I started working on this project before I created this blog, so if I miss anything you&rsquo;d like to know, don&rsquo;t hesitate to tell me in the comments. It should serve more as a build log where I can release assets I created to the public, but expect a full featured guide on how to create a library to come.</p>
+
+<h2 id="getting-the-data">Getting the data</h2>
 
 <p>Before I really started creating the library and drawing the PCB I had to do a bit of research, so I know the dimensions, common sizing, proper parts alignment etc. Getting Cherry MX switch dimensions may be bit of a pain in the ass, because it&rsquo;s all in inches instead of millimeters (<em>and we don&rsquo;t want that</em>). However as I continued digging around I found out there&rsquo;s an older Cherry MX datasheet containing the same dimensions, but in millimeters, the only valid unit on planet Earth! It&rsquo;s not that hard to find out where to get it, but one of the goals of this blog is to archive stuff I might need in the future, so I&rsquo;ll post it anyway. But enough talking, you can download the datasheet <a href="/files/cherry-mx-datasheet.pdf">here</a>.</p>
 
 <p>This beautiful piece of art contains <em>almost</em> everything to create Cherry compatible PCB, it even has stabilizer dimensions for various sizes, but sadly it does not for the most important one - <strong>6.25u spacebar stabilizer</strong> - but no worries, by poking around and measuring other boards I found out the &ldquo;A&rdquo; dimension in the datasheet for 6.25u keycap is <strong>100mm</strong>. Now that&rsquo;s everything I needed to create Cherry MX library for Eagle.</p>
 
+<h3 id="note-units">Note: units</h3>
+
 <p>Before going through the drawing part I&rsquo;d like to point out an important thing to remember. Keycap sizes are measured in units, but they won&rsquo;t tell you much about the actual size, so it&rsquo;s important to remember that <strong>1u is 19.05mm</strong>. It is mentioned in the datasheet too, but most of the calculations you&rsquo;re gonna do to figure out the keycap footprint will use this number, that&rsquo;s why this number is super important. It also contains the margin needed between individual switches/keycaps, so you don&rsquo;t need to worry about it. Now we can jump to the drawing itself&hellip;</p>
+
+<h2 id="drawing-the-easy-part-or-not">Drawing - the easy part (or not?)</h2>
 
 <p>As my board is meant for plate mount switches with THT LEDs, I used the following drawing to create basic 1u switch component:</p>
 
@@ -155,7 +163,11 @@
 </figure>
 
 
-<p>Now I simply copied this footprint and created 1.5u and other sizes. Calculating the dashed line length for them is pretty easy, you just take the unit size and multiply it by 19.05. Be sure to have the switch in the component center!</p>
+<p>Mind that while this is really convenient for PCB drawing, those lines are going to get printed on the PCB silkscreen and might confuse the user, so I&rsquo;m probably going to put them into a different layer and I highly recommend doing the same to you if you plan on using this library for production before I change it myself.</p>
+
+<p>Now I simply copied this footprint and created 1.5u and other sizes. Calculating the dashed line length for them is pretty easy as you just take the unit size and multiply it by 19.05. Be sure to have the switch in the component center!</p>
+
+<h3 id="note-stepped-caps-lock">Note: stepped caps lock</h3>
 
 <p>There&rsquo;s a little gotcha when it comes to the stepped caps lock. Due to the step the keycap itself is 1.75u, but the stem is usually placed in the center of the higher 1.25u wide part of the keycap, so you need to use 1.25u component for stepped caps lock support. This way the board should match majority of the caps lock keycaps.</p>
 
@@ -176,6 +188,8 @@
     
 </figure>
 
+
+<h2 id="bring-the-stabs">Bring the stabs</h2>
 
 <p>Unfortunately copying works for keycaps smaller than 2u. When the key is equal or bigger than 2u, you have to care about stabilizers. So I had to peek into the datasheet once again. God bless Cherry for providing simple footprint drawing I could use.</p>
 
@@ -239,6 +253,8 @@
 
 <p>After opening the result in Autocad I was finally able to get the dimensions needed for the 6u component. Phew!</p>
 
+<h2 id="iso-enter-masterrace">ISO Enter masterrace</h2>
+
 <p>The only thing that was missing by now was the glorious ISO enter, the one and only. And I must admit that this one almost got me, because I fell for its trick also known as the <code>G AP</code>. ISO enter may seem to be a plain rotated 2u key with adjusted outline (that also means that you need stabilizers), but that&rsquo;s not true and actually doing that would end up in a <code>G AP</code> failure.</p>
 
 
@@ -278,6 +294,8 @@
     
 </figure>
 
+
+<h2 id="the-result-finally">The result (finally&hellip;)</h2>
 
 <p>For those who read through all of this bullshit, here&rsquo;s your reward, my own <a href="https://raw.githubusercontent.com/albru123/keyboard-assets/master/cherry.lbr">Cherry MX library</a> (right click and Save as&hellip;).</p>
 
