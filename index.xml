@@ -1,43 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Albru&#39;s trash can</title>
     <link>https://albertmoravec.github.io/</link>
     <description>Recent content on Albru&#39;s trash can</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 10 Sep 2017 01:34:15 +0200</lastBuildDate>
-    
-	<atom:link href="https://albertmoravec.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://albertmoravec.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cherry MX gotchas</title>
       <link>https://albertmoravec.github.io/2017/09/10/cherry-mx-gotchas/</link>
       <pubDate>Sun, 10 Sep 2017 01:34:15 +0200</pubDate>
-      
       <guid>https://albertmoravec.github.io/2017/09/10/cherry-mx-gotchas/</guid>
-      <description>This post is gonna be a little flashback for me, as I started working on this project before I created this blog, so if I miss anything you&amp;rsquo;d like to know, don&amp;rsquo;t hesitate to tell me in the comments. It should serve more as a build log where I can release assets I created to the public and maybe help a few people with creating their own components, not necessarily for Eagle.</description>
+      <description>&lt;p&gt;This post is gonna be a little flashback for me, as I started working on this project before I created this blog, so if I miss anything you&amp;rsquo;d like to know, don&amp;rsquo;t hesitate to tell me in the comments. It should serve more as a build log where I can release assets I created to the public and maybe help a few people with creating their own components, not necessarily for Eagle.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Journey of Zireael</title>
       <link>https://albertmoravec.github.io/2017/08/12/journey-of-zireael/</link>
       <pubDate>Sat, 12 Aug 2017 18:04:56 +0200</pubDate>
-      
       <guid>https://albertmoravec.github.io/2017/08/12/journey-of-zireael/</guid>
-      <description>You know that feel when you&amp;rsquo;re looking for a new keyboard, but nothing seem to suite you well enough? Well, I went through the struggle a while ago and it wasn&amp;rsquo;t easy. Both for me and the people trying to help me.
-Motivation My interest in mechanical keyboards started like two years ago (and it&amp;rsquo;s worth noting I still haven&amp;rsquo;t tried any), but I kept telling myself that it&amp;rsquo;s not necessary, that it&amp;rsquo;s not a thing I really need.</description>
+      <description>&lt;p&gt;You know that feel when you&amp;rsquo;re looking for a new keyboard, but nothing seem to suite you well enough? Well, I went through the struggle a while ago and it wasn&amp;rsquo;t easy. Both for me and the people trying to help me.&lt;/p&gt;&#xA;&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;&#xA;&lt;p&gt;My interest in mechanical keyboards started like two years ago (and it&amp;rsquo;s worth noting I still haven&amp;rsquo;t tried any), but I kept telling myself that it&amp;rsquo;s not necessary, that it&amp;rsquo;s not a thing I &lt;em&gt;really&lt;/em&gt; need. However things change and so did my view on mechanical keyboards and I started looking around a bit. While I don&amp;rsquo;t want to go through everything that brought me to the decision of making my own mechanical keyboard, I think I should say at least something to it.&lt;/p&gt;</description>
     </item>
-    
-    <item>
-      <title>The beginning</title>
-      <link>https://albertmoravec.github.io/2017/08/11/the-beginning/</link>
-      <pubDate>Fri, 11 Aug 2017 00:15:27 +0200</pubDate>
-      
-      <guid>https://albertmoravec.github.io/2017/08/11/the-beginning/</guid>
-      <description>I&amp;rsquo;m not quite sure if I can give you proper introduction, but I can at least try. This blog&amp;rsquo;s main purpose, is getting feedback from you on my projects, so I can make them better and eventually attractive for others. I&amp;rsquo;d also like to keep anyone who likes my stuff informed about the latest progress and maybe even share a few tips that might help. Please, leave me a message if you have an interesting topic I should write about.</description>
-    </item>
-    
   </channel>
 </rss>

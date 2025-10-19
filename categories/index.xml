@@ -1,23 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Albru&#39;s trash can</title>
     <link>https://albertmoravec.github.io/categories/</link>
     <description>Recent content in Categories on Albru&#39;s trash can</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    
-	<atom:link href="https://albertmoravec.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 10 Sep 2017 01:34:15 +0200</lastBuildDate>
+    <atom:link href="https://albertmoravec.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Mechs</title>
-      <link>https://albertmoravec.github.io/categories/mechs/</link>
+      <title>Keebs</title>
+      <link>https://albertmoravec.github.io/categories/keebs/</link>
       <pubDate>Sun, 10 Sep 2017 01:34:15 +0200</pubDate>
-      
-      <guid>https://albertmoravec.github.io/categories/mechs/</guid>
+      <guid>https://albertmoravec.github.io/categories/keebs/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>
