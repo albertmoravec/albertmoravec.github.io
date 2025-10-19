@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Albru&#39;s trash can</title>
-    <link>https://albru123.github.io/categories/</link>
+    <link>https://albertmoravec.github.io/categories/</link>
     <description>Recent content in Categories on Albru&#39;s trash can</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://albru123.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://albertmoravec.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Mechs</title>
-      <link>https://albru123.github.io/categories/mechs/</link>
+      <link>https://albertmoravec.github.io/categories/mechs/</link>
       <pubDate>Sun, 10 Sep 2017 01:34:15 +0200</pubDate>
       
-      <guid>https://albru123.github.io/categories/mechs/</guid>
+      <guid>https://albertmoravec.github.io/categories/mechs/</guid>
       <description></description>
     </item>
     

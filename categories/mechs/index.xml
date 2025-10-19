@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mechs on Albru&#39;s trash can</title>
-    <link>https://albru123.github.io/categories/mechs/</link>
+    <link>https://albertmoravec.github.io/categories/mechs/</link>
     <description>Recent content in Mechs on Albru&#39;s trash can</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 10 Sep 2017 01:34:15 +0200</lastBuildDate>
     
-	<atom:link href="https://albru123.github.io/categories/mechs/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://albertmoravec.github.io/categories/mechs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Cherry MX gotchas</title>
-      <link>https://albru123.github.io/2017/09/10/cherry-mx-gotchas/</link>
+      <link>https://albertmoravec.github.io/2017/09/10/cherry-mx-gotchas/</link>
       <pubDate>Sun, 10 Sep 2017 01:34:15 +0200</pubDate>
       
-      <guid>https://albru123.github.io/2017/09/10/cherry-mx-gotchas/</guid>
+      <guid>https://albertmoravec.github.io/2017/09/10/cherry-mx-gotchas/</guid>
       <description>This post is gonna be a little flashback for me, as I started working on this project before I created this blog, so if I miss anything you&amp;rsquo;d like to know, don&amp;rsquo;t hesitate to tell me in the comments. It should serve more as a build log where I can release assets I created to the public and maybe help a few people with creating their own components, not necessarily for Eagle.</description>
     </item>
     
     <item>
       <title>Journey of Zireael</title>
-      <link>https://albru123.github.io/2017/08/12/journey-of-zireael/</link>
+      <link>https://albertmoravec.github.io/2017/08/12/journey-of-zireael/</link>
       <pubDate>Sat, 12 Aug 2017 18:04:56 +0200</pubDate>
       
-      <guid>https://albru123.github.io/2017/08/12/journey-of-zireael/</guid>
+      <guid>https://albertmoravec.github.io/2017/08/12/journey-of-zireael/</guid>
       <description>You know that feel when you&amp;rsquo;re looking for a new keyboard, but nothing seem to suite you well enough? Well, I went through the struggle a while ago and it wasn&amp;rsquo;t easy. Both for me and the people trying to help me.
 Motivation My interest in mechanical keyboards started like two years ago (and it&amp;rsquo;s worth noting I still haven&amp;rsquo;t tried any), but I kept telling myself that it&amp;rsquo;s not necessary, that it&amp;rsquo;s not a thing I really need.</description>
     </item>
